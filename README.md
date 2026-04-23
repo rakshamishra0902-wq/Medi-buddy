@@ -1,18 +1,6 @@
 🩺 Medi-Buddy
 
-📌 Description
-
-Medi-Buddy is a pharmacogenomics-based web application that analyzes a user's genetic data to provide personalized medication insights.
-
-Users can upload their genetic file (VCF format), and the system processes it to predict how different drugs may affect them. The application helps identify safe, toxic, or ineffective medications and provides dosage recommendations.
-
----
-
-🚀 Features
-
-- 📁 Upload genetic files (VCF format)
-- 🧬 Extract gene variants and relevant pharmacogenomic data
-- ⚠️ Detect drug risks (Toxic / Ineffective / Safe)
+📌 shbb risks (Toxic / Ineffective / Safe)
 - 💊 Provide dosage recommendations
 - 🤖 Suggest alternative medications using AI (LLM)
 - 📊 Interactive result dashboard
