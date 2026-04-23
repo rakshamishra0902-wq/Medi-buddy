@@ -1,16 +1,75 @@
-# React + Vite
+🩺 Medi-Buddy
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+📌 Description
 
-Currently, two official plugins are available:
+Medi-Buddy is a pharmacogenomics-based web application that analyzes a user's genetic data to provide personalized medication insights.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Users can upload their genetic file (VCF format), and the system processes it to predict how different drugs may affect them. The application helps identify safe, toxic, or ineffective medications and provides dosage recommendations.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🚀 Features
 
-## Expanding the ESLint configuration
+- 📁 Upload genetic files (VCF format)
+- 🧬 Extract gene variants and relevant pharmacogenomic data
+- ⚠️ Detect drug risks (Toxic / Ineffective / Safe)
+- 💊 Provide dosage recommendations
+- 🤖 Suggest alternative medications using AI (LLM)
+- 📊 Interactive result dashboard
+- 📄 Generate clinical PDF reports
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+🛠️ Tech Stack
+
+- Frontend: React + Vite
+- Backend: (Add if you have one)
+- AI Integration: LLM-based recommendations
+- Data Processing: Genetic variant analysis
+
+---
+
+⚙️ How It Works
+
+1. Upload genetic file (VCF)
+2. Validate file format and data
+3. Extract genetic information
+4. Analyze drug response using pharmacogenomic rules (CPIC guidelines)
+5. Generate insights:
+   - Drug safety classification
+   - Dosage guidance
+   - Alternative medicines
+6. Display results on dashboard
+7. Generate clinical report
+
+---
+
+▶️ Installation
+
+git clone <your-repo-link>
+cd medi-buddy
+npm install
+npm run dev
+
+---
+
+📊 Output
+
+- Drug risk summary (Safe / Toxic / Ineffective)
+- Personalized dosage recommendations
+- AI-based alternative medications
+- Clinical report (PDF)
+
+---
+
+⚠️ Disclaimer
+
+This tool is for educational and research purposes only. It should not replace professional medical advice.
+
+---
+
+🤝 Contributing
+
+Feel free to improve this project by submitting pull requests.
+
+---
