@@ -1,75 +1,12 @@
-🩺 Medi-Buddy
+React + Vite
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-📌 Description
+Currently, two official plugins are available:
 
-Medi-Buddy is a pharmacogenomics-based web application that analyzes a user's genetic data to provide personalized medication insights.
+@vitejs/plugin-react uses Babel (or oxc when used in rolldown-vite) for Fast Refresh
+@vitejs/plugin-react-swc uses SWC for Fast Refresh
+React Compiler
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see this documentation.
 
-Users can upload their genetic file (VCF format), and the system processes it to predict how different drugs may affect them. The application helps identify safe, toxic, or ineffective medications and provides dosage recommendations.
-
----
-
-🚀 Features
-
-- 📁 Upload genetic files (VCF format)
-- 🧬 Extract gene variants and relevant pharmacogenomic data
-- ⚠️ Detect drug risks (Toxic / Ineffective / Safe)
-- 💊 Provide dosage recommendations
-- 🤖 Suggest alternative medications using AI (LLM)
-- 📊 Interactive result dashboard
-- 📄 Generate clinical PDF reports
-
----
-
-🛠️ Tech Stack
-
-- Frontend: React + Vite
-- Backend: (Add if you have one)
-- AI Integration: LLM-based recommendations
-- Data Processing: Genetic variant analysis
-
----
-
-⚙️ How It Works
-
-1. Upload genetic file (VCF)
-2. Validate file format and data
-3. Extract genetic information
-4. Analyze drug response using pharmacogenomic rules (CPIC guidelines)
-5. Generate insights:
-   - Drug safety classification
-   - Dosage guidance
-   - Alternative medicines
-6. Display results on dashboard
-7. Generate clinical report
-
----
-
-▶️ Installation
-
-git clone <your-repo-link>
-cd medi-buddy
-npm install
-npm run dev
-
----
-
-📊 Output
-
-- Drug risk summary (Safe / Toxic / Ineffective)
-- Personalized dosage recommendations
-- AI-based alternative medications
-- Clinical report (PDF)
-
----
-
-⚠️ Disclaimer
-
-This tool is for educational and research purposes only. It should not replace professional medical advice.
-
----
-
-🤝 Contributing
-
-Feel free to improve this project by submitting pull requests.
-
----
+Expanding the ESLint configuration
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the TS template for information on how to integrate TypeScript and typescript-eslint in your project.
