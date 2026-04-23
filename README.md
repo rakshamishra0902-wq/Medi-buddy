@@ -2,7 +2,7 @@
 
 📌 Description
 
-Medi-Buddy is a pharmacogenomics-based web application that analyzes a user's genetic data to provide personalized medication insights.
+MediBuddy is a pharmacogenomics-based web application that analyzes a user's genetic data to provide personalized medication insights.
 
 Users can upload their genetic file (VCF format), and the system processes it to predict how different drugs may affect them. The application helps identify safe, toxic, or ineffective medications and provides dosage recommendations.
 
