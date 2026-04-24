@@ -28,13 +28,14 @@ Frontend
 
 Backend
 
-- Handles genetic data processing and analysis
-- File validation and parsing (VCF files)
-- Pharmacogenomic analysis using CPIC guidelines
-- Drug risk prediction engine
-- Dosage recommendation system
-- Integration with AI/LLM for alternative medicines
-- PDF report generation
+-Python FAST API High performance API layer
+
+-cyvcf2 efficient VCF parsing
+
+-LLM API (openai / gemini)
+
+-CPIC database Drug-gene guideline mapping
+
 
 ---
 
@@ -62,22 +63,6 @@ User → Upload File → Backend Processing → Analysis Engine → Results Dash
 
 ---
 
-▶️ Installation
-
-Frontend
-
-git clone <your-repo-link>
-cd medi-buddy
-npm install
-npm run dev
-
-Backend (if applicable)
-
-cd backend
-npm install   # or pip install -r requirements.txt
-npm start     # or python app.py
-
----
 
 📊 Output
 
@@ -99,3 +84,14 @@ This project is for educational and research purposes only and should not be use
 Pull requests are welcome. Feel free to improve documentation, features, or UI.
 
 ---
+
+## ⚠️ Note on Server Startup Time
+
+The backend of this project is hosted on Render (free plan).
+
+⏳ The server may take **50 seconds to 1 minute** to start on the first request.  
+This delay happens because the service goes to sleep after inactivity.
+
+👉 This is **not a bug or glitch** — it is expected behavior on Render's free tier.
+
+Please wait for a minute if the app seems unresponsive initially.
